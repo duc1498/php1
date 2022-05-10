@@ -183,10 +183,8 @@ tr:nth-child(even) {
     <th>name</th>
     <th>price</th>
   </tr>
-  <?php 
-          foreach ($arrProducts as $item) {
-
-           
+  <!-- <?php 
+          foreach ($arrProducts as $item) {    
   ?>
   <tr>
     <td><?=$item['id'] ?></td>
@@ -194,7 +192,7 @@ tr:nth-child(even) {
     <td><?=$item['price'] ?></td>
   </tr>
 
- <?php } ?>
+ <?php } ?> -->
 
 
 
